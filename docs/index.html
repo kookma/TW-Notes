@@ -173,6 +173,8 @@ Error message and password prompt
 
 <li>$:/GitHub/Username</li>
 
+<li>$:/highlight.js/theme/twdark.css</li>
+
 <li>$:/Import</li>
 
 <li>$:/isEncrypted</li>
@@ -201,7 +203,11 @@ Error message and password prompt
 
 <li>$:/state/notebook-sidebar-section</li>
 
+<li>$:/state/showeditpreview</li>
+
 <li>$:/state/tab--1498284803</li>
+
+<li>$:/state/tab--1963855381</li>
 
 <li>$:/state/tab-1749438307</li>
 
@@ -219,9 +225,13 @@ Error message and password prompt
 
 <li>$:/themes/nico/notebook</li>
 
+<li>$:/themes/nico/notebook/settings/codefontfamily</li>
+
 <li>$:/themes/tiddlywiki/snowwhite</li>
 
 <li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>Move Tags to Fields</li>
 
 <li>TW Scripting Notes</li>
 
@@ -10188,10 +10198,114 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20210116163615719" modified="20210116163616811" title="$:/GitHub/Username">
 <pre>kookma</pre>
 </div>
+<div created="20180419120729037" creator="Mohammad" modified="20190613052402148" modifier="Mohammad" revision="1" tags="$:/tags/Stylesheet" title="$:/highlight.js/theme/twdark.css" type="text/css">
+<pre>/* The customised dark style for TiddlyFor syntax highlighthing
+(highlight.js style)
+Apr 19, 2018
+Mohammad Rahmani
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #2e2e2e;
+  color: #ffffff;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #C0DD0C;
+  font-style:normal;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-type,
+.hljs-addition {
+  color: #FF8000;
+  font-weight:normal;
+}
+
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-pseudo {
+  color: #ffffff;
+}
+
+
+
+.hljs-number{
+ color: #7FB347;
+}
+
+
+.hljs-string,
+.hljs-doctag,
+.hljs-regexp {
+  color:#FFC600; /* #8abeb7;*/
+}
+
+.hljs-title,
+.hljs-name,
+.hljs-section {
+  color: #b5bd68;
+}
+
+.hljs-built_in {
+  color: #66D9EF;
+  font-weight:normal;
+}
+
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-class .hljs-title {
+   color: #ffcc66;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-link {
+  color: #f99157;
+}
+
+.hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-formula {
+  background: #eee8d5;
+}
+
+.hljs-attr,
+.hljs-attribute {
+  color: #81a2be;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+/*correctio of tex tags*/
+.hljs-tag {
+  color: #b5bd68;
+}</pre>
+</div>
 <div status="complete" title="$:/Import">
 <pre>The following tiddlers were imported:
 
-# [[$:/plugins/kookma/favorites]]</pre>
+# [[$:/highlight.js/theme/twdark.css]]</pre>
 </div>
 <div bag="default" revision="0" title="$:/isEncrypted">
 <pre>no</pre>
@@ -10331,20 +10445,26 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div bag="default" created="20201210193130921" modified="20210116162422116" revision="0" title="$:/SiteTitle" type="text/vnd.tiddlywiki">
 <pre>TW Scripting Notes</pre>
 </div>
-<div created="20210116162711155" modified="20210116162711155" title="$:/state/advancedsearch/currentTab">
-<pre>$:/core/ui/AdvancedSearch/Filter</pre>
+<div created="20210116162711155" modified="20210116183131029" title="$:/state/advancedsearch/currentTab">
+<pre>$:/core/ui/AdvancedSearch/System</pre>
 </div>
-<div created="20210116162341424" modified="20210116162341424" title="$:/state/notebook-sidebar">
+<div created="20210116162341424" modified="20210116184816808" title="$:/state/notebook-sidebar">
 <pre>yes</pre>
 </div>
-<div created="20210116163214899" modified="20210116163443971" title="$:/state/notebook-sidebar-section">
-<pre></pre>
+<div created="20210116163214899" modified="20210116184818449" title="$:/state/notebook-sidebar-section">
+<pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div created="20210116162711156" modified="20210116162711156" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/Filter</pre>
+<div created="20210116172641479" modified="20210116172919685" title="$:/state/showeditpreview">
+<pre>yes</pre>
 </div>
-<div created="20210116163608874" modified="20210116163608874" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20210116162711156" modified="20210116183131032" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/System</pre>
+</div>
+<div created="20210116171554447" modified="20210116171554447" title="$:/state/tab--1963855381">
+<pre>$:/themes/nico/notebook/themetweaks</pre>
+</div>
+<div created="20210116163608874" modified="20210116171553048" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20210116163610364" modified="20210116164336895" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -10355,7 +10475,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210116163605734" list="$:/ControlPanel [[TW Scripting Notes]]" modified="20210116163605734" title="$:/StoryList">
+<div created="20210116163605734" list="[[Move Tags to Fields]] [[TW Scripting Notes]]" modified="20210116183332927" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210116162808140" list="$:/core/ui/SideBar/Recent $:/core/ui/SideBar/Open $:/core/ui/SideBar/Tools" modified="20210116162808140" title="$:/tags/SideBar">
@@ -10683,6 +10803,9 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
     }
 }</pre>
 </div>
+<div created="20210101213404232" modified="20210116171612649" tags="" title="$:/themes/nico/notebook/settings/codefontfamily" type="text/vnd.tiddlywiki">
+<pre></pre>
+</div>
 <div author="JeremyRuston" bag="default" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" revision="0" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -10792,8 +10915,46 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
     }
 }</pre>
 </div>
-<div created="20210116162900384" modified="20210116162900384" title="TW Scripting Notes">
-<pre></pre>
+<div created="20210116170953538" modified="20210116184814374" tags="tags field" title="Move Tags to Fields">
+<pre>!!! How move all tags for a set of tiddlers to a new field?
+
+Assume you have a set of tiddlers have different tags and you line to delete all these tags and store them in a new tiddler field. This can be done as following
+
+```xml
+\define Tags2Field(filter, newField)
+&lt;$button&gt;Move Tags to newField
+&lt;$list filter=&lt;&lt;__filter__&gt;&gt; &gt;
+&lt;$action-setfield $field=&lt;&lt;__newField__&gt;&gt; $value={{{ [&lt;currentTiddler&gt;get[tags]] }}} /&gt;
+&lt;$action-deletefield tags/&gt;
+&lt;/$list&gt;
+&lt;/$button&gt;
+&lt;&lt;list-links filter:&quot;&quot;&quot;$filter$&quot;&quot;&quot;&gt;&gt; 
+\end
+
+```
+
+!!! Remarks
+* The `filter` parameter accepts any Tiddlywiki valid filter
+* The `$list` widget uses the `filter` parameter and lists all tiddlers meet the filter criteria
+* The `$action-setfield` widget creates a new filed here its name is passed through `newField` parameter
+* The `$action-setfield` widget set the value of new field by reading the `tags` field
+* The `$action-deletefield` widget then delete the `tags` field
+* The `list-links` macro list all tiddler meets the `filter` criteria
+
+!!! Example
+I have several tiddlers their title started with `Test` and each have several tags. I like to remove all tags and store them in a new field called `myfield`. So call your macro as below
+
+
+```xml
+&lt;&lt;Tags2Field &quot;[prefix[Test ]]&quot; &quot;myfield&quot;&gt;&gt;
+```
+
+
+!!! Notes
+- See discussion at [[Google forum|https://groups.google.com/g/tiddlywiki/c/w9Bv-WulKw8/m/YS1_eiqyCAAJ]]</pre>
+</div>
+<div created="20210116162900384" modified="20210116170949333" title="TW Scripting Notes">
+<pre>Tiddlywiki Scripting Notes is a digital garden from community users discussing how to write simple scripts in Tiddlywiki</pre>
 </div>
 
 
